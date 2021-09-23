@@ -1,0 +1,114 @@
+.header {
+  background-color: rgb(4, 84, 158);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-row {
+  background-color: rgb(4, 84, 158);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.category-button {
+  margin: 5px 15px 5px 15px;
+  width: 20%;
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
+
+#logoblock {
+  width: 40%;
+  text-align: left;
+}
+
+#logo {
+  margin: 10px 5px;
+}
+
+#loginblock {
+  width: 40%;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+#login {
+  margin: 20px 10px 20px 5px;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+#login:hover {
+  transform: scale(1.1);
+}
+
+#banner-image {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+#category-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.category-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.category-details {
+  margin: 10px;
+  border-color: cyan;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center;
+
+  background-color: rgb(35, 135, 165);
+}
+
+.item-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.display-box {
+  margin: 5px 15px 5px 15px;
+  max-width: 200px;
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
+.item-img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 400px) {
+  #loginblock,
+  #logoblock,
+  #logo,
+  #login,
+  .category-button {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+}
